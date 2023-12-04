@@ -4,7 +4,6 @@
     "config:best-practices",
     "group:allNonMajor",
     "schedule:weekly",
-    "schedule:automergeWeekly",
     ":automergeAll",
     ":automergeBranch",
     ":approveMajorUpdates",
@@ -12,5 +11,6 @@
     ":pinAllExceptPeerDependencies",
     ":rebaseStalePrs",
     "helpers:pinGitHubActionDigests"
-  ]
+  ],
+  "automergeSchedule": ["before 10am on Monday"]
 }
