@@ -11,6 +11,5 @@
     ":pinAllExceptPeerDependencies",
     ":rebaseStalePrs",
     "helpers:pinGitHubActionDigests"
-  ],
-  "automergeSchedule": ["before 10am on Monday"]
+  ]
 }
